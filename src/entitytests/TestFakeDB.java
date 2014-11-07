@@ -39,7 +39,7 @@ public class TestFakeDB {
 
     @Test(expected=NoSuchElementException.class)
     public void testGetCustomer8ByPK() {
-        Customer c = CustomerTable.findByPrimaryKey(new UUID(0, 8));
+        CustomerTable.findByPrimaryKey(new UUID(0, 8));
     }
 
     @Test
@@ -128,7 +128,7 @@ public class TestFakeDB {
 
     @Test(expected=NoSuchElementException.class)
     public void testGetSupplier8ByPK() {
-        Supplier c = SupplierTable.findByPrimaryKey(new UUID(0, 8));
+        SupplierTable.findByPrimaryKey(new UUID(0, 8));
     }
 
     @Test
